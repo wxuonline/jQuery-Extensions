@@ -1,0 +1,23 @@
+/*reset+css库*/
+@charset "utf-8";
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, figure{margin:0;}
+a{ color: #444; text-decoration:none}
+body{word-wrap:break-word;color: #444;-webkit-tap-highlight-color: transparent;-webkit-text-size-adjust: 100%;}
+body,input,button{font: 12rem/24rem "微软雅黑","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
+input,button,select,textarea{padding: 0;margin: 0;border:none;background: none;outline: none;color: #666;}
+input{-webkit-appearance: none;appearance: none;}
+ul,ol,li,dl{list-style:none;margin:0; padding:0;}
+h1,h2,h3,h4,h5{font-weight:normal;}
+i,em,b{font-style:normal;font-weight:normal;list-style:none;}
+mark{background: none;}
+.fl{float: left;}.fr{float: right;}.cl{clear:both;}.tc{text-align:center;}.tr{text-align:right;}.tl{text-align:left;}.c0{color:#000;}.c3{color:#333;}.c6{color:#666;}.c9{color:#999;}.cf{color:#fff;}
+.oh{overflow: hidden;}.pr{position: relative;}.pa{position: absolute;}.pf{position: fixed;}.toh{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}.bf{background: #fff;}
+.op{-webkit-opacity: 0;opacity: 0;}.ma{margin: 0 auto;}.bsb{box-sizing: border-box;}.bsc{box-sizing: content-box;}.vm{vertical-align:middle;}.vt{vertical-align:top;}.vb{vertical-align:bottom;}
+.dn{display: none;}.db{display: block;}.dtc{display: table-cell;}.df{display:-webkit-box;display:-webkit-flex;display: flex;}
+
+
+
+
+
+
+
