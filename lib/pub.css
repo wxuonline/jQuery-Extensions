@@ -3,7 +3,7 @@
 body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, figure{margin:0;}
 a{ color: #444; text-decoration:none}
 body{word-wrap:break-word;color: #444;-webkit-tap-highlight-color: transparent;-webkit-text-size-adjust: 100%;}
-body,input,button{font: 12rem/24rem "微软雅黑","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
+body,input,button{font: 12px/24px "微软雅黑","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
 input,button,select,textarea{padding: 0;margin: 0;border:none;background: none;outline: none;color: #666;}
 input{-webkit-appearance: none;appearance: none;}
 ul,ol,li,dl{list-style:none;margin:0; padding:0;}

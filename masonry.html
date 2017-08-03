@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>图片上传</title>
+    <link rel="stylesheet" type="text/css" href="lib/pub.css">
+    <script type="text/javascript" src="lib/jquery-1.9.1.min.js"></script>
+    <style type="text/css">
+        body{background: #ccc;}
+        .background{width: 1000px;padding: 20px 0;}
+        .masonry{width: 100%;height: auto;}
+        .masonry li{margin: 10px;float: left;position: relative;overflow: hidden;box-shadow: 0 0 5px rgba(0, 0, 0, .4)}
+        .masonry li a{background: #458ef2;display: block;width: 100%;height: 100%;font-size: 24px;}
+    </style>
 </head>
 <body>
-    <ul id="masonry" class="masonry pr oh ma">
-        <li><a href="#"><img src=""></a></li>
-    </ul>
+    <div class="background pr ma bf bsb">
+        <div class="explain">
+            <h2>参数：</h2>
+            <p>row（正整数）：瀑布流列数，默认值："auto"</p>
+        </div>
+        <ul id="masonry" class="masonry pr oh">
+            <li class="masonry-item" style="width: 200px;height: 181px;"><a href="#">1<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 435px;"><a href="#">2<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 144px;"><a href="#">3<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 153px;"><a href="#">4<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 276px;"><a href="#">5<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 226px;"><a href="#">6<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 488px;"><a href="#">7<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 486px;"><a href="#">8<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 363px;"><a href="#">9<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 154px;"><a href="#">10<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 467px;"><a href="#">11<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 243px;"><a href="#">12<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 218px;"><a href="#">13<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 331px;"><a href="#">14<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 299px;"><a href="#">15<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 413px;"><a href="#">16<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 104px;"><a href="#">17<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 260px;"><a href="#">18<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 118px;"><a href="#">19<!-- <img src=""> --></a></li>
+            <li class="masonry-item" style="width: 200px;height: 252px;"><a href="#">20<!-- <img src=""> --></a></li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="js/jquery-wxu-masonry.js"></script>
+    <script type="text/javascript">
+        $("#masonry").masonry({
+            row: 4
+        })
+    </script>
 </body>
 </html>
